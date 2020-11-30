@@ -68,7 +68,7 @@ def getMailFromWeb(url):
 wb = xlrd.open_workbook("List of the Top Shopify Design and Development TEST.xlsx")
 # get the first worksheet
 sheet = wb.sheet_by_index(0)
-print("oren")
+print("orenPeer")
 for i in range(1,10):
     cell = sheet.cell(i, 4).value
     print("searching email address at: ", cell)
